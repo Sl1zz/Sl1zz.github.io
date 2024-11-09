@@ -33,7 +33,7 @@ function Header() {
                     <div className="row">
                         {/* Button 1: HOME */}
                         <Link 
-                            to="/" 
+                            to="/Home" 
                             onClick={() => handleButtonClick("home")}
                             className="col-12 col-md-6 col-lg-6 p-0 m-0 border border-dark text-center text-white" 
                             style={{
@@ -45,7 +45,7 @@ function Header() {
                         </Link>                 
                         {/* Button 2: EXTENSION */}
                         <Link 
-                            to="/advancedJS" 
+                            to="/AdvancedJS" 
                             onClick={() => handleButtonClick("extension")}
                             className="col-12 col-md-6 col-lg-6 p-0 m-0 border border-dark text-center text-white" 
                             style={{
