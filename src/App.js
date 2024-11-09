@@ -18,8 +18,8 @@ function App() {
       <HashRouter>
         <Header /> {/* Include Header component */}
         <Routes>
-          <Route path="/Home" element={<Home />} /> {/* Home component*/}
-          <Route path="/AdvancedJS" element={<AdvancedJS />} /> {/* AdvancedJS component*/}
+          <Route path="/" element={<Home />} /> {/* Home component*/}
+          <Route path="/advancedJS" element={<AdvancedJS />} /> {/* AdvancedJS component*/}
           <Route path="/faq" element={<FAQ />} />
           <Route path="/invoice" element={<Invoice />} />
         </Routes>
